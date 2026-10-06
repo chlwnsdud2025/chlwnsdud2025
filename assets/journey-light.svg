@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="64" viewBox="0 0 880 64" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">
+  <text x="2" y="38" font-size="24" font-weight="800" fill="#3D4A63">걸어온 길</text>
+  <text x="122" y="37" font-size="11" font-weight="600" letter-spacing="2" fill="#8C959F">JOURNEY</text>
+  <line x1="0" y1="56" x2="880" y2="56" stroke="#D0D7DE" stroke-width="1"/>
+  <line x1="0" y1="56" x2="44" y2="56" stroke="#7F77DD" stroke-width="3"/>
+</svg>

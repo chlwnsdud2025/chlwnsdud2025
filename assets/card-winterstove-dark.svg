@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">
+  <defs><clipPath id="clip"><rect x="16" y="16" width="368" height="208" rx="12"/></clipPath></defs>
+  <rect x="0.5" y="0.5" width="879" height="239" rx="18" fill="#161B22" stroke="#30363D"/>
+  <rect x="16" y="16" width="368" height="208" rx="12" fill="#712B13"/>
+  <text x="200" y="128" font-size="24" font-weight="800" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.9">Winter Stove</text>
+  <text x="412" y="62" font-size="16" font-weight="800" fill="#9F98EC">04</text>
+  <text x="446" y="63" font-size="24" font-weight="800" fill="#E6EDF3">Winter Stove</text>
+  <text x="852" y="61" font-size="12" font-weight="600" text-anchor="end" fill="#6E7681">팀 · VR</text>
+  <text x="412" y="94" font-size="14" fill="#9198A1">Meta Quest VR 인터랙션</text>
+  <line x1="412" y1="116" x2="852" y2="116" stroke="#30363D"/>
+  <rect x="412" y="132" width="90" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="457" y="148" font-size="12" font-weight="600" text-anchor="middle" fill="#C9D1E3">XR Toolkit</text>
+  <rect x="508" y="132" width="62" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="539" y="148" font-size="12" font-weight="600" text-anchor="middle" fill="#C9D1E3">OpenXR</text>
+  <rect x="576" y="132" width="90" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="621" y="148" font-size="12" font-weight="600" text-anchor="middle" fill="#C9D1E3">Meta Quest</text>
+  <text x="412" y="208" font-size="12" fill="#6E7681">github.com/chlwnsdud2025/Winter-Stove</text>
+  <text x="852" y="208" font-size="13" font-weight="700" text-anchor="end" fill="#C9D1E3">레포 보기 →</text>
+</svg>
