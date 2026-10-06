@@ -32,40 +32,23 @@
 </picture>
 
 <!-- 프로젝트 카드 (assets/card-*.svg, gen-svg.sh 로 생성)
-     정지 이미지: assets/projects/<key>.png 를 넣고 gen-svg.sh 재실행 (key: clumsy, pixelchroma, lastember, winterstove)
+     정지 이미지: assets/projects/<key>.png 를 넣고 gen-svg.sh 재실행 (key: clumsy, pixelchroma, lastember)
      플레이 GIF: 아래 placehold.co 주소를 ./assets/projects/<key>.gif 로 교체 -->
-<a href="https://github.com/chlwnsdud2025/Clumsy-Defense-Force"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-clumsy-dark.svg" /><img src="./assets/card-clumsy-light.svg" width="100%" alt="01 우당탕 방범대" /></picture></a>
+<p align="center">
+  <a href="https://github.com/chlwnsdud2025/Clumsy-Defense-Force"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-clumsy-dark.svg" /><img src="./assets/card-clumsy-light.svg" width="32%" alt="01 우당탕 방범대" /></picture></a>
+  <a href="https://github.com/chlwnsdud2025/Pixel-Chroma"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pixelchroma-dark.svg" /><img src="./assets/card-pixelchroma-light.svg" width="32%" alt="02 Pixel Chroma" /></picture></a>
+  <a href="https://github.com/chlwnsdud2025/Last-Ember"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-lastember-dark.svg" /><img src="./assets/card-lastember-light.svg" width="32%" alt="03 Last Ember" /></picture></a>
+</p>
+
 <details>
   <summary><b>플레이 영상 보기</b></summary>
   <br />
-  <img src="https://placehold.co/880x495/085041/FFFFFF?text=Clumsy+Defense+Force+GIF&font=noto-sans" width="100%" alt="01 우당탕 방범대 플레이 영상" />
+  <p align="center">
+    <img src="https://placehold.co/480x270/085041/FFFFFF?text=Clumsy+Defense+Force+GIF&font=noto-sans" width="32%" alt="우당탕 방범대 플레이 영상" />
+    <img src="https://placehold.co/480x270/3C3489/FFFFFF?text=Pixel+Chroma+GIF&font=noto-sans" width="32%" alt="Pixel Chroma 플레이 영상" />
+    <img src="https://placehold.co/480x270/633806/FFFFFF?text=Last+Ember+GIF&font=noto-sans" width="32%" alt="Last Ember 플레이 영상" />
+  </p>
 </details>
-<br />
-
-<a href="https://github.com/chlwnsdud2025/Pixel-Chroma"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pixelchroma-dark.svg" /><img src="./assets/card-pixelchroma-light.svg" width="100%" alt="02 Pixel Chroma" /></picture></a>
-<details>
-  <summary><b>플레이 영상 보기</b></summary>
-  <br />
-  <img src="https://placehold.co/880x495/3C3489/FFFFFF?text=Pixel+Chroma+GIF&font=noto-sans" width="100%" alt="02 Pixel Chroma 플레이 영상" />
-</details>
-<br />
-
-<a href="https://github.com/chlwnsdud2025/Last-Ember"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-lastember-dark.svg" /><img src="./assets/card-lastember-light.svg" width="100%" alt="03 Last Ember" /></picture></a>
-<details>
-  <summary><b>플레이 영상 보기</b></summary>
-  <br />
-  <img src="https://placehold.co/880x495/633806/FFFFFF?text=Last+Ember+GIF&font=noto-sans" width="100%" alt="03 Last Ember 플레이 영상" />
-</details>
-<br />
-
-<a href="https://github.com/chlwnsdud2025/Winter-Stove"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-winterstove-dark.svg" /><img src="./assets/card-winterstove-light.svg" width="100%" alt="04 Winter Stove" /></picture></a>
-<details>
-  <summary><b>플레이 영상 보기</b></summary>
-  <br />
-  <img src="https://placehold.co/880x495/712B13/FFFFFF?text=Winter+Stove+GIF&font=noto-sans" width="100%" alt="04 Winter Stove 플레이 영상" />
-</details>
-<br />
-
 
 <br />
 

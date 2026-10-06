@@ -93,59 +93,40 @@ EOF
   } > "assets/education-$1.svg"
 }
 
-# Approximate rendered width of text at 12px (Korean ~12px, ASCII ~7px per char)
-textw() {
-  local chars=${#1} bytes; bytes=$(printf %s "$1" | wc -c)
-  local wide=$(( (bytes - chars) / 2 ))
-  echo $(( (chars - wide) * 7 + wide * 12 ))
-}
-
-# Project card (horizontal, 880x240): $1=theme $2=key $3=no $4=title $5=subtitle $6=meta $7=placeholder color $8=placeholder text $9=repo $10..=tags
+# Project card (vertical, 300x252): $1=theme $2=key $3=no $4=title $5=subtitle $6=meta $7=placeholder color $8=placeholder text
 # Uses assets/projects/<key>.png|.jpg as the still image when present, otherwise a placeholder.
 # The play GIF (assets/projects/<key>.gif) is shown by the README's <details> toggle, not inside the card.
 card() {
-  local th=$1; theme "$1"; local key=$2 no=$3 title=$4 sub=$5 meta=$6 ph=$7 phtext=$8 repo=$9; shift 9
+  local th=$1; theme "$1"; local key=$2 no=$3 title=$4 sub=$5 meta=$6 ph=$7 phtext=$8
   local img="" f
   for f in "assets/projects/$key.png" "assets/projects/$key.jpg"; do
     [ -f "$f" ] || continue
     local mime="image/${f##*.}"; [ "$mime" = image/jpg ] && mime=image/jpeg
-    img="<image x=\"16\" y=\"16\" width=\"368\" height=\"208\" preserveAspectRatio=\"xMidYMid slice\" clip-path=\"url(#clip)\" href=\"data:$mime;base64,$(base64 -w0 "$f")\"/>"
+    img="<image x=\"0\" y=\"0\" width=\"300\" height=\"170\" preserveAspectRatio=\"xMidYMid slice\" href=\"data:$mime;base64,$(base64 -w0 "$f")\"/>"
     break
   done
-  [ -z "$img" ] && img="<rect x=\"16\" y=\"16\" width=\"368\" height=\"208\" rx=\"12\" fill=\"$ph\"/>
-  <text x=\"200\" y=\"128\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFFFFF\" fill-opacity=\"0.9\">$phtext</text>"
-  {
-  cat <<EOF2
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" font-family="$FONT">
-  <defs><clipPath id="clip"><rect x="16" y="16" width="368" height="208" rx="12"/></clipPath></defs>
-  <rect x="0.5" y="0.5" width="879" height="239" rx="18" fill="$BG" stroke="$STROKE"/>
-  $img
-  <text x="412" y="62" font-size="16" font-weight="800" fill="$DOT">$no</text>
-  <text x="446" y="63" font-size="24" font-weight="800" fill="$PRI">$title</text>
-  <text x="852" y="61" font-size="12" font-weight="600" text-anchor="end" fill="$MUTED">$meta</text>
-  <text x="412" y="94" font-size="14" fill="$SEC">$sub</text>
-  <line x1="412" y1="116" x2="852" y2="116" stroke="$STROKE"/>
-EOF2
-  local x=412 t w
-  for t in "$@"; do
-    w=$(( $(textw "$t") + 20 ))
-    echo "  <rect x=\"$x\" y=\"132\" width=\"$w\" height=\"24\" rx=\"12\" fill=\"$TILE\" stroke=\"$STROKE\"/>"
-    echo "  <text x=\"$(( x + w / 2 ))\" y=\"148\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"$ACCENT\">$t</text>"
-    x=$(( x + w + 6 ))
-  done
-  cat <<EOF2
-  <text x="412" y="208" font-size="12" fill="$MUTED">github.com/chlwnsdud2025/$repo</text>
-  <text x="852" y="208" font-size="13" font-weight="700" text-anchor="end" fill="$ACCENT">레포 보기 →</text>
+  [ -z "$img" ] && img="<rect x=\"0\" y=\"0\" width=\"300\" height=\"170\" fill=\"$ph\"/>
+    <text x=\"150\" y=\"92\" font-size=\"20\" font-weight=\"800\" text-anchor=\"middle\" fill=\"#FFFFFF\" fill-opacity=\"0.9\">$phtext</text>"
+  cat > "assets/card-$key-$th.svg" <<EOF2
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="252" viewBox="0 0 300 252" font-family="$FONT">
+  <defs><clipPath id="clip"><rect x="0" y="0" width="300" height="252" rx="16"/></clipPath></defs>
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="300" height="252" fill="$BG"/>
+    $img
+  </g>
+  <rect x="0.5" y="0.5" width="299" height="251" rx="16" fill="none" stroke="$STROKE"/>
+  <text x="16" y="205" font-size="13" font-weight="800" fill="$DOT">$no</text>
+  <text x="40" y="206" font-size="18" font-weight="800" fill="$PRI">$title</text>
+  <text x="284" y="205" font-size="11" font-weight="600" text-anchor="end" fill="$MUTED">$meta</text>
+  <text x="40" y="230" font-size="12" fill="$SEC">$sub</text>
 </svg>
 EOF2
-  } > "assets/card-$key-$th.svg"
 }
 
 for t in light dark; do
-  card $t clumsy "01" "우당탕 방범대" "Clumsy Defense Force · 3D 뱀서라이크 액션" "팀 4인 · 4주" "#085041" "Clumsy Defense Force" Clumsy-Defense-Force "Unity 6" "Addressables" "Entities"
-  card $t pixelchroma "02" "Pixel Chroma" "2D 도트 색칠 숨바꼭질 · 멀티플레이" "팀 4인 · 10주" "#3C3489" "Pixel Chroma" Pixel-Chroma "Mirror" "Steamworks" "UniTask"
-  card $t lastember "03" "Last Ember" "소울라이크 3D 액션" "개인 · 3주" "#633806" "Last Ember" Last-Ember "URP" "Cinemachine" "NavMesh"
-  card $t winterstove "04" "Winter Stove" "Meta Quest VR 인터랙션" "팀 · VR" "#712B13" "Winter Stove" Winter-Stove "XR Toolkit" "OpenXR" "Meta Quest"
+  card $t clumsy "01" "우당탕 방범대" "3D 뱀서라이크 액션" "팀 4인 · 4주" "#085041" "Clumsy Defense Force"
+  card $t pixelchroma "02" "Pixel Chroma" "2D 도트 색칠 숨바꼭질 · 멀티" "팀 4인 · 10주" "#3C3489" "Pixel Chroma"
+  card $t lastember "03" "Last Ember" "소울라이크 3D 액션" "개인 · 3주" "#633806" "Last Ember"
   education $t
   header $t projects "프로젝트" "PROJECTS" 112
   header $t journey "걸어온 길" "JOURNEY" 122
