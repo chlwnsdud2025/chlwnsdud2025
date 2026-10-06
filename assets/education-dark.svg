@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">
+  <rect x="0.5" y="0.5" width="879" height="439" rx="18" fill="#161B22" stroke="#30363D"/>
+  <text x="40" y="54" font-size="13" font-weight="600" letter-spacing="3" fill="#9198A1">EDUCATION</text>
+  <text x="40" y="98" font-size="38" font-weight="800" fill="#C9D1E3">이력사항</text>
+  <line x1="40" y1="122" x2="840" y2="122" stroke="#30363D"/>
+
+  <text x="40" y="166" font-size="20" font-weight="800" fill="#E6EDF3">학력</text>
+  <text x="88" y="165" font-size="10" font-weight="600" letter-spacing="1.5" fill="#6E7681">EDUCATION</text>
+  <line x1="40" y1="180" x2="440" y2="180" stroke="#30363D"/>
+  <line x1="40" y1="180" x2="72" y2="180" stroke="#C9D1E3" stroke-width="2.5"/>
+  <line x1="46" y1="212" x2="46" y2="352" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="46" cy="212" r="5.5" fill="#9F98EC"/>
+  <text x="66" y="216" font-size="12" fill="#6E7681">2026.03 — 2026.10</text>
+  <text x="66" y="241" font-size="18" font-weight="700" fill="#E6EDF3">경일 IT아카데미</text>
+  <text x="66" y="262" font-size="13" fill="#9198A1">교육과정 수료</text>
+  <circle cx="46" cy="282" r="5.5" fill="#484F58"/>
+  <text x="66" y="286" font-size="12" fill="#6E7681">2020.03 — 2026.08</text>
+  <text x="66" y="311" font-size="18" font-weight="700" fill="#E6EDF3">한림대학교</text>
+  <text x="66" y="332" font-size="13" fill="#9198A1">빅데이터 &amp; IT컨텐츠 전공 · 졸업</text>
+  <circle cx="46" cy="352" r="5.5" fill="#484F58"/>
+  <text x="66" y="356" font-size="12" fill="#6E7681">2017.03 — 2020.02</text>
+  <text x="66" y="381" font-size="18" font-weight="700" fill="#E6EDF3">퇴계원고등학교</text>
+  <text x="66" y="402" font-size="13" fill="#9198A1">졸업</text>
+
+  <text x="490" y="166" font-size="20" font-weight="800" fill="#E6EDF3">외부활동</text>
+  <text x="576" y="165" font-size="10" font-weight="600" letter-spacing="1.5" fill="#6E7681">ACTIVITY</text>
+  <line x1="490" y1="180" x2="840" y2="180" stroke="#30363D"/>
+  <line x1="490" y1="180" x2="522" y2="180" stroke="#C9D1E3" stroke-width="2.5"/>
+  <circle cx="496" cy="212" r="5.5" fill="#9F98EC"/>
+  <text x="516" y="216" font-size="12" fill="#6E7681">2026.05 — 현재</text>
+  <text x="516" y="241" font-size="18" font-weight="700" fill="#E6EDF3">동아리 61315 GameLab</text>
+  <text x="516" y="262" font-size="13" fill="#9198A1"></text>
+
+  <text x="490" y="290" font-size="20" font-weight="800" fill="#E6EDF3">기술</text>
+  <text x="538" y="289" font-size="10" font-weight="600" letter-spacing="1.5" fill="#6E7681">SKILLS</text>
+  <line x1="490" y1="304" x2="840" y2="304" stroke="#30363D"/>
+  <line x1="490" y1="304" x2="522" y2="304" stroke="#C9D1E3" stroke-width="2.5"/>
+  <rect x="490" y="322" width="64" height="64" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <g transform="translate(506 338) scale(1.3333)"><path d="m12.9288 4.2939 3.7997 2.1929c.1366.077.1415.2905 0 .3675l-4.515 2.6076a.4192.4192 0 0 1-.4246 0L7.274 6.8543c-.139-.0745-.1415-.293 0-.3675l3.7972-2.193V0L1.3758 5.5977V16.793l3.7177-2.1456v-4.3858c-.0025-.1565.1813-.2682.318-.1838l4.5148 2.6076a.4252.4252 0 0 1 .2136.3676v5.2127c.0025.1565-.1813.2682-.3179.1838l-3.7996-2.1929-3.7178 2.1457L12 24l9.6954-5.5977-3.7178-2.1457-3.7996 2.1929c-.1341.082-.3229-.0248-.3179-.1838V13.053c0-.1565.087-.2956.2136-.3676l4.5149-2.6076c.134-.082.3228.0224.3179.1838v4.3858l3.7177 2.1456V5.5977L12.9288 0Z" fill="#FFFFFF"/></g>
+  <text x="522" y="408" font-size="13" font-weight="700" text-anchor="middle" fill="#E6EDF3">Unity</text>
+  <rect x="578" y="322" width="64" height="64" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <g transform="translate(594 338) scale(1.3333)"><path d="M1.194 7.543v8.913c0 1.103.588 2.122 1.544 2.674l7.718 4.456a3.086 3.086 0 0 0 3.088 0l7.718-4.456a3.087 3.087 0 0 0 1.544-2.674V7.543a3.084 3.084 0 0 0-1.544-2.673L13.544.414a3.086 3.086 0 0 0-3.088 0L2.738 4.87a3.085 3.085 0 0 0-1.544 2.673Zm5.403 2.914v3.087a.77.77 0 0 0 .772.772.773.773 0 0 0 .772-.772.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546 2.314 2.314 0 1 1-4.631 0v-3.087c0-.615.244-1.203.679-1.637a2.312 2.312 0 0 1 3.274 0c.434.434.678 1.023.678 1.637a.769.769 0 0 1-.226.545.767.767 0 0 1-1.091 0 .77.77 0 0 1-.226-.545.77.77 0 0 0-.772-.772.771.771 0 0 0-.772.772Zm12.35 3.087a.77.77 0 0 1-.772.772h-.772v.772a.773.773 0 0 1-1.544 0v-.772h-1.544v.772a.773.773 0 0 1-1.317.546.775.775 0 0 1-.226-.546v-.772H12a.771.771 0 1 1 0-1.544h.772v-1.543H12a.77.77 0 1 1 0-1.544h.772v-.772a.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546v.772h1.544v-.772a.773.773 0 0 1 1.544 0v.772h.772a.772.772 0 0 1 0 1.544h-.772v1.543h.772a.776.776 0 0 1 .772.772Zm-3.088-2.315h-1.544v1.543h1.544v-1.543Z" fill="#8F4BD6"/></g>
+  <text x="610" y="408" font-size="13" font-weight="700" text-anchor="middle" fill="#E6EDF3">C#</text>
+  <rect x="666" y="322" width="64" height="64" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <g transform="translate(682 338) scale(1.3333)"><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z" fill="#F05032"/></g>
+  <text x="698" y="408" font-size="13" font-weight="700" text-anchor="middle" fill="#E6EDF3">Git</text>
+</svg>
