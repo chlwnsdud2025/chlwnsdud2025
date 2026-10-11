@@ -44,7 +44,7 @@
   <summary><b>플레이 영상 보기</b></summary>
   <br />
   <p align="center">
-    <img src="https://placehold.co/480x270/085041/FFFFFF?text=Clumsy+Defense+Force+GIF&font=noto-sans" width="32%" alt="우당탕 방범대 플레이 영상" />
+    <img src="./assets/projects/clumsy.gif" width="32%" alt="우당탕 방범대 플레이 영상" />
     <img src="./assets/projects/pixelchroma.gif" width="32%" alt="Pixel Chroma 플레이 영상" />
     <img src="./assets/projects/lastember.gif" width="32%" alt="Last Ember 플레이 영상" />
   </p>
