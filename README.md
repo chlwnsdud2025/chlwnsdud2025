@@ -57,13 +57,13 @@
   <img src="./assets/journey-light.svg" width="100%" alt="걸어온 길" />
 </picture>
 
-| 시기 | 프로젝트 | 한 줄 소개 |
-|:---:|:---|:---|
-| `2025.03` | [Capstone Project](https://github.com/chlwnsdud2025/Capstone-project-Portfolio) | 대학 캡스톤 팀 프로젝트 · Unity 2022.3 |
-| `2026.04` | [Last Ember](https://github.com/chlwnsdud2025/Last-Ember-Portfolio) | 첫 개인 3D 게임 |
-| `2026.05` | [우당탕 방범대](https://github.com/chlwnsdud2025/Clumsy-Defense-Force-Portfolio) | 첫 팀 협업 · 3D 뱀서라이크 |
-| `2026.06` | [Winter Stove](https://github.com/chlwnsdud2025/Winter-Stove-Portfolio) | VR 도전 · Meta Quest |
-| `2026.07` | [Pixel Chroma](https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio) | 네트워크 멀티플레이 · Steam |
+| 시기 | 프로젝트 | 한 줄 소개 | 영상 |
+|:---:|:---|:---|:---:|
+| `2025.03` | [Capstone Project](https://github.com/chlwnsdud2025/Capstone-project-Portfolio) | 대학 캡스톤 팀 프로젝트 · Unity 2022.3 | [▶ 보기](https://www.youtube.com/watch?v=UThz7KhKTDc) |
+| `2026.04` | [Last Ember](https://github.com/chlwnsdud2025/Last-Ember-Portfolio) | 첫 개인 3D 게임 | [▶ 보기](https://www.youtube.com/watch?v=uUuw1t44cd4) |
+| `2026.05` | [우당탕 방범대](https://github.com/chlwnsdud2025/Clumsy-Defense-Force-Portfolio) | 첫 팀 협업 · 3D 뱀서라이크 | [▶ 보기](https://www.youtube.com/watch?v=qPuH5ze9sbI) |
+| `2026.06` | [Winter Stove](https://github.com/chlwnsdud2025/Winter-Stove-Portfolio) | VR 도전 · Meta Quest | [▶ 보기](https://www.youtube.com/watch?v=d2nPrdX7Xqs) |
+| `2026.07` | [Pixel Chroma](https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio) | 네트워크 멀티플레이 · Steam | [▶ 보기](https://www.youtube.com/watch?v=vdB4pgSr3JY) |
 
 <!-- 기여 streak 카드 (표시하려면 주석 해제)
 <br />
