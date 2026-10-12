@@ -7,7 +7,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=500&size=20&duration=3000&pause=800&color=7F77DD&center=true&vCenter=true&width=520&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C+%EC%B5%9C%EC%A4%80%EC%98%81%EC%9E%85%EB%8B%88%EB%8B%A4;Multiplayer+%C2%B7+VR+%C2%B7+Gameplay+Systems;%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94+%EA%B2%8C%EC%9E%84%EC%9D%84+%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4" alt="typing" />
 </p>
 
-<!-- TODO: Web 주소 입력 / 포트폴리오 PDF는 assets/Portfolio.pdf 로 올리면 클릭 시 바로 다운로드됨 -->
+<!-- 연락처 · 웹사이트 · 포트폴리오 PDF (assets/Portfolio.pdf) -->
 <p align="center">
   <a href="mailto:juny2221@gmail.com"><img src="https://img.shields.io/badge/Email-juny2221@gmail.com-3D4A63?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" /></a>
   <a href="https://chlwnsdud2025.github.io/"><img src="https://img.shields.io/badge/Web-Visit-3D4A63?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1D9E75" /></a>
@@ -32,8 +32,8 @@
 </picture>
 
 <!-- 프로젝트 카드 (assets/card-*.svg, gen-svg.sh 로 생성)
-     정지 이미지: assets/projects/<key>.png 를 넣고 gen-svg.sh 재실행 (key: clumsy, pixelchroma, lastember)
-     플레이 GIF: 아래 placehold.co 주소를 ./assets/projects/<key>.gif 로 교체 -->
+     정지 이미지: assets/projects/<key>.png 또는 .jpg 를 넣고 gen-svg.sh 재실행 (key: clumsy, pixelchroma, lastember)
+     플레이 GIF: assets/projects/<key>.gif (아래 <details> 토글에서 표시) -->
 <p align="center">
   <a href="https://github.com/chlwnsdud2025/Clumsy-Defense-Force-Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-clumsy-dark.svg" /><img src="./assets/card-clumsy-light.svg" width="32%" alt="01 우당탕 방범대" /></picture></a>
   <a href="https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pixelchroma-dark.svg" /><img src="./assets/card-pixelchroma-light.svg" width="32%" alt="02 Pixel Chroma" /></picture></a>
@@ -65,7 +65,7 @@
 | `2026.06` | [Winter Stove](https://github.com/chlwnsdud2025/Winter-Stove-Portfolio) | VR 도전 · Meta Quest |
 | `2026.07` | [Pixel Chroma](https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio) | 네트워크 멀티플레이 · Steam |
 
-<!-- TODO: 레포를 Public으로 바꾼 뒤 주석 해제 (지금은 비공개 기여가 집계되지 않아 숫자가 작게 나옴)
+<!-- 기여 streak 카드 (표시하려면 주석 해제)
 <br />
 
 <p align="center">
