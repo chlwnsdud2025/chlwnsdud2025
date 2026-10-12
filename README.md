@@ -10,7 +10,7 @@
 <!-- TODO: Web 주소 입력 / 포트폴리오 PDF는 assets/Portfolio.pdf 로 올리면 클릭 시 바로 다운로드됨 -->
 <p align="center">
   <a href="mailto:juny2221@gmail.com"><img src="https://img.shields.io/badge/Email-juny2221@gmail.com-3D4A63?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" /></a>
-  <a href="https://your-web.example.com"><img src="https://img.shields.io/badge/Web-Visit-3D4A63?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1D9E75" /></a>
+  <a href="https://chlwnsdud2025.github.io/"><img src="https://img.shields.io/badge/Web-Visit-3D4A63?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1D9E75" /></a>
   <a href="https://github.com/chlwnsdud2025/chlwnsdud2025/raw/main/assets/Portfolio.pdf"><img src="https://img.shields.io/badge/Portfolio-PDF%20Download-3D4A63?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=7F77DD" /></a>
 </p>
 
@@ -35,9 +35,9 @@
      정지 이미지: assets/projects/<key>.png 를 넣고 gen-svg.sh 재실행 (key: clumsy, pixelchroma, lastember)
      플레이 GIF: 아래 placehold.co 주소를 ./assets/projects/<key>.gif 로 교체 -->
 <p align="center">
-  <a href="https://github.com/chlwnsdud2025/Clumsy-Defense-Force"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-clumsy-dark.svg" /><img src="./assets/card-clumsy-light.svg" width="32%" alt="01 우당탕 방범대" /></picture></a>
-  <a href="https://github.com/chlwnsdud2025/Pixel-Chroma"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pixelchroma-dark.svg" /><img src="./assets/card-pixelchroma-light.svg" width="32%" alt="02 Pixel Chroma" /></picture></a>
-  <a href="https://github.com/chlwnsdud2025/Last-Ember"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-lastember-dark.svg" /><img src="./assets/card-lastember-light.svg" width="32%" alt="03 Last Ember" /></picture></a>
+  <a href="https://github.com/chlwnsdud2025/Clumsy-Defense-Force-Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-clumsy-dark.svg" /><img src="./assets/card-clumsy-light.svg" width="32%" alt="01 우당탕 방범대" /></picture></a>
+  <a href="https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pixelchroma-dark.svg" /><img src="./assets/card-pixelchroma-light.svg" width="32%" alt="02 Pixel Chroma" /></picture></a>
+  <a href="https://github.com/chlwnsdud2025/Last-Ember-Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-lastember-dark.svg" /><img src="./assets/card-lastember-light.svg" width="32%" alt="03 Last Ember" /></picture></a>
 </p>
 
 <details>
@@ -59,12 +59,11 @@
 
 | 시기 | 프로젝트 | 한 줄 소개 |
 |:---:|:---|:---|
-| `2025.03` | [Capstone Project](https://github.com/chlwnsdud2025/Capstone-project) | 대학 캡스톤 팀 프로젝트 · Unity 2022.3 |
-| `2026.04` | [Last Ember](https://github.com/chlwnsdud2025/Last-Ember) | 첫 개인 3D 게임 |
-| `2026.05` | [우당탕 방범대](https://github.com/chlwnsdud2025/Clumsy-Defense-Force) | 첫 팀 협업 · 3D 뱀서라이크 |
-| `2026.06` | [Winter Stove](https://github.com/chlwnsdud2025/Winter-Stove) | VR 도전 · Meta Quest |
-| `2026.07` | [Pixel Chroma](https://github.com/chlwnsdud2025/Pixel-Chroma) | 네트워크 멀티플레이 · Steam |
-| `2026.10` | [BabyThieves](https://github.com/chlwnsdud2025/BabyThieves_Project) | ![진행 중](https://img.shields.io/badge/진행%20중-EF9F27?style=flat-square) |
+| `2025.03` | [Capstone Project](https://github.com/chlwnsdud2025/Capstone-project-Portfolio) | 대학 캡스톤 팀 프로젝트 · Unity 2022.3 |
+| `2026.04` | [Last Ember](https://github.com/chlwnsdud2025/Last-Ember-Portfolio) | 첫 개인 3D 게임 |
+| `2026.05` | [우당탕 방범대](https://github.com/chlwnsdud2025/Clumsy-Defense-Force-Portfolio) | 첫 팀 협업 · 3D 뱀서라이크 |
+| `2026.06` | [Winter Stove](https://github.com/chlwnsdud2025/Winter-Stove-Portfolio) | VR 도전 · Meta Quest |
+| `2026.07` | [Pixel Chroma](https://github.com/chlwnsdud2025/Pixel-Chroma-Portfolio) | 네트워크 멀티플레이 · Steam |
 
 <!-- TODO: 레포를 Public으로 바꾼 뒤 주석 해제 (지금은 비공개 기여가 집계되지 않아 숫자가 작게 나옴)
 <br />
